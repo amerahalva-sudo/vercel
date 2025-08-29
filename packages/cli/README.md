@@ -1,63 +1,96 @@
-<p align="center">
-  <a href="https://vercel.com">
-    <img src="https://assets.vercel.com/image/upload/v1588805858/repositories/vercel/logo.png" height="96">
-    <h3 align="center">Vercel</h3>
-  </a>
-  <p align="center">Develop. Preview. Ship.</p>
-</p>
+# 🌿 فيس أردني | Face Jordan
 
-[Join the Vercel Community](https://community.vercel.com/)
+![Face Jordan Logo](./assets/logo.png)
 
-## Usage
+**فيس أردني** هو تطبيق تواصل اجتماعي أردني يشبه فيسبوك لكن بطابع محلي أردني 🇯🇴، باللون الأخضر البارد.  
+يسمح للمستخدمين بـ:
+- ✅ إنشاء الحسابات وتسجيل الدخول
+- ✅ نشر الصور والفيديوهات والمنشورات النصية
+- ✅ الإعجابات والتعليقات
+- ✅ خاصية **المسنجر للتواصل بين الأصدقاء**
+- ✅ البث المباشر
+- ✅ رفع الإعلانات
+- ✅ إنشاء محتوى فيديو وصور (مثل Reels)
+- ✅ واجهة متجاوبة بالكامل (Mobile Friendly)
 
-Vercel's frontend cloud gives developers frameworks, workflows, and infrastructure to build a faster, more personalized web.
+---
 
-To install the latest version of Vercel CLI, run this command:
+## 🖼 لقطات شاشة
+### الصفحة الرئيسية
+![Homepage](./assets/screenshot-home.png)
 
+### واجهة المسنجر
+![Messenger](./assets/screenshot-messenger.png)
+
+---
+
+## 🛠 التقنية المستخدمة
+- **الواجهة الأمامية (Frontend):** React + Vite + Tailwind CSS
+- **الواجهة الخلفية (Backend):** Java + Spring Boot + MySQL
+- **التخزين:** MySQL + دعم رفع الملفات
+- **النشر:**  
+  - الواجهة على **Vercel**  
+  - الباك-إند على **Render**
+
+---
+
+## 🚀 التثبيت المحلي
+
+### ✅ الواجهة الأمامية (Frontend)
 ```bash
-npm i -g vercel
+cd frontend
+npm install
+npm run dev
 ```
 
-To quickly start a new project, run the following commands:
-
+### ✅ الواجهة الخلفية (Backend)
 ```bash
-vercel init     # Pick an example project
-cd <PROJECT>    # Change directory to the new project
-vercel          # Deploy to the cloud
+cd backend
+mvn clean install
+mvn spring-boot:run
 ```
 
-Finally, [connect your Git repository to Vercel](https://vercel.com/docs/git) and deploy with `git push`.
+---
 
-## Documentation
+## 🌐 النشر على Vercel (للواجهة)
+1. سجّل الدخول إلى [Vercel](https://vercel.com).
+2. اربط المستودع `facejordan`.
+3. اختر مجلد `frontend` كمصدر.
+4. اضغط Deploy.
 
-For details on how to use Vercel CLI, check out our [documentation](https://vercel.com/docs/cli).
+---
 
-## Local Development
+## 🌐 النشر على Render (للباك-إند)
+1. سجّل الدخول إلى [Render](https://render.com).
+2. اربط المستودع.
+3. اختر مجلد `backend`.
+4. أضف البيئة (MySQL DB) والمتغيرات.
 
-To develop Vercel CLI, first check out the source code, install dependencies, and build all packages:
+---
 
-```bash
-git clone https://github.com/vercel/vercel.git
-cd vercel
-pnpm install
-pnpm build
-```
+## 🔗 رابط التطبيق
+👉 [Live Demo على Vercel](https://facejordan.vercel.app)
 
-At this point you can make modifications to the CLI source code and test them out locally. The CLI source code is located in the `packages/cli` directory.
+---
 
-```bash
-cd packages/cli
-```
+## 📥 تحميل التطبيق
+> **APK (قريباً جدًا)**  
+سيتم إضافة رابط تحميل APK للأندرويد قريبًا.
 
-### `pnpm vercel <cli-commands...>`
+---
 
-From within the `packages/cli` directory, you can use the "vercel" script to quickly execute Vercel CLI from its TypeScript source code directly (without having to manually compile first). For example:
+## 📌 معلومات إضافية
+- **الاسم:** فيس أردني (Face Jordan)
+- **اللون الرئيسي:** أخضر بارد (#2ECC71)
+- **صانعة التطبيق:** أميرة  
+- **سنة الإصدار:** 2025  
 
-```bash
-pnpm vercel deploy
-pnpm vercel whoami
-pnpm vercel login
-pnpm vercel switch --debug
-```
+---
 
-When you are satisfied with your changes, make a commit and create a pull request!
+## 📞 اتصل بي
+- 📧 **البريد:** example@email.com  
+- 🔗 **خدماتي على خمسات:** [https://khamsat.com/user/ameera](https://khamsat.com/user/ameera)
+
+---
+
+© 2025 - جميع الحقوق محفوظة لصانعة التطبيق **أميرة**.
